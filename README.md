@@ -21,8 +21,8 @@ Welcome to InspectorX, a mobile application developed for the SHLOK-HACKATHON by
 - **Firebase:** Backend platform for authentication, real-time database, and cloud storage.
 
 ### Installation:
-1. Clone the repository: `git clone https://github.com/Shlok1Hackathon-Rsquare/safety-inspector.git`
-2. Navigate to the project directory: `cd safety-inspector`
+1. Clone the repository: `git clone https://github.com/ReubenReny03/Shlok1Hackathon-Rsquare`
+2. Navigate to the project directory: `cd inspectorX`
 3. Install dependencies: `flutter pub get`
 4. Run the app: `flutter run`
 
