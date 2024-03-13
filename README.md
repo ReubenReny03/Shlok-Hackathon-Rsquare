@@ -30,4 +30,4 @@ Welcome to InspectorX, a mobile application developed for the SHLOK-HACKATHON by
 - Reuben Reny 🚀
 - Renuka Rajpuria 🌟
 
-Let's make safety inspections fun and effective with Safety InspectoR! 💪🔍🛠️
+Let's make safety inspections fun and effective with Safety InspectoX! 💪🔍🛠️
