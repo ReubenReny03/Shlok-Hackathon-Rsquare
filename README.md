@@ -1,6 +1,6 @@
 ## Safety InspectoR - Gamified Safety Inspection App 🚀
 
-Welcome to Safety InspectoR, a mobile application developed for the SHLOK-HACKATHON by Reuben Reny and Renuka Rajpuria! Safety InspectoR is designed to revolutionize the safety inspection process by gamifying it, making inspections more engaging, efficient, and effective.
+Welcome to InspectorX, a mobile application developed for the SHLOK-HACKATHON by Reuben Reny and Renuka Rajpuria! Safety InspectoR is designed to revolutionize the safety inspection process by gamifying it, making inspections more engaging, efficient, and effective.
 
 ### Features:
 - **Leaderboards:** Compete with other inspectors on leaderboards to incentivize thorough and efficient inspections.
