@@ -1,4 +1,4 @@
-## Safety InspectoR - Gamified Safety Inspection App 🚀
+## InspectorX - Gamified Safety Inspection App 🚀
 
 ![image](https://github.com/ReubenReny03/Shlok1Hackathon-Rsquare/assets/91770238/1c4b42b1-df2f-4e53-9a9f-0f032d563286)
 
