@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098333054428",
+    "project_id": "inspectos-remo",
+    "storage_bucket": "inspectos-remo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098333054428:android:4303776f092374bef09b19",
+        "android_client_info": {
+          "package_name": "com.example.inspectorx_beta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbnUmeQ2HGFFd4BCnyL7JNsCeWjJVjvRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
