@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:inspectorx_beta/firebase_options.dart';
-import 'package:inspectorx_beta/pages/auth_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:inspectorx_beta/splash_screen.dart';
 
