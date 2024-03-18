@@ -126,6 +126,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  flutter_neumorphic:
+    dependency: "direct main"
+    description:
+      name: flutter_neumorphic
+      sha256: "02606d937a3ceaa497b8a7c25f3efa95188bf93d77ebf0bd6552e432db4c2ec6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -136,6 +144,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  google_nav_bar:
+    dependency: "direct main"
+    description:
+      name: google_nav_bar
+      sha256: "1c8e3882fa66ee7b74c24320668276ca23affbd58f0b14a24c1e5590f4d07ab0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.6"
   http_parser:
     dependency: transitive
     description:
@@ -144,6 +160,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  image_card:
+    dependency: "direct main"
+    description:
+      name: image_card
+      sha256: bb9e459aecc19825b10d4265ba5da4125f583c2158b7e148c996ad5ea255af01
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   js:
     dependency: transitive
     description:
@@ -184,6 +208,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  loading_btn:
+    dependency: "direct main"
+    description:
+      name: loading_btn
+      sha256: ecc27ca22d611ee5d22db358410ca03c64b81644d952cb80f350b71746d82674
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   matcher:
     dependency: transitive
     description:
@@ -200,6 +232,134 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.8.0"
+  material_neumorphic:
+    dependency: "direct main"
+    description:
+      name: material_neumorphic
+      sha256: efc8c9fff82c19e9a2d807879eb74c74f934c7a5fed3b345497e0771425886e0
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
+  material_neumorphic_app_bar:
+    dependency: transitive
+    description:
+      name: material_neumorphic_app_bar
+      sha256: "5cfd9acbfa4ce5a9be27605a4b403726bc8de23f2f300d678fb2bbd6cfd5d30c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
+  material_neumorphic_background:
+    dependency: transitive
+    description:
+      name: material_neumorphic_background
+      sha256: "8a8749d0520ffdc607b459823003be43ab37a3476555569ffc7ea61e7595c1e7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_button:
+    dependency: transitive
+    description:
+      name: material_neumorphic_button
+      sha256: a000bfedf1501514addbd2173b77910f6f36313f2a65099bb63e0d1398a5bf98
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
+  material_neumorphic_checkbox:
+    dependency: transitive
+    description:
+      name: material_neumorphic_checkbox
+      sha256: "47b20a2818d577d8ace51566ea20ea79c2c947601cb56243651bdd4549574a52"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.4"
+  material_neumorphic_dropdown:
+    dependency: transitive
+    description:
+      name: material_neumorphic_dropdown
+      sha256: "251b6e7d1cbf610979f50701ec48f1c73092433e0abe9fe36907fe2aa75ac4d0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
+  material_neumorphic_icon:
+    dependency: transitive
+    description:
+      name: material_neumorphic_icon
+      sha256: c72097c1c05ec2138bccb73fb5047726783cf4f66f4c9320d4f7d1d075d3f1e7
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_indicator:
+    dependency: transitive
+    description:
+      name: material_neumorphic_indicator
+      sha256: "773e59ca41e2685beaf5e19a13660c73e055a17fbadee0d19be16fa8d3fd1fcd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_progress:
+    dependency: transitive
+    description:
+      name: material_neumorphic_progress
+      sha256: d53b415b4071157f857b64bdd3f8e462aef3e5ab2755e08b66bc617af509ca9f
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_radio:
+    dependency: transitive
+    description:
+      name: material_neumorphic_radio
+      sha256: "2792c9ced1e418133151215b845a6eff2e8293353bc83c9cc45492abe4157068"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.4"
+  material_neumorphic_slider:
+    dependency: transitive
+    description:
+      name: material_neumorphic_slider
+      sha256: ad1b7dd89db7f9d07b6d2a7c091f1d2a101f3f1870b0e761581384184687e184
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_switch:
+    dependency: transitive
+    description:
+      name: material_neumorphic_switch
+      sha256: "3aa2bb905cc88df8aceef9a2fe10c8938a162a2c5c8d6b9398baab3fa7482977"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_text:
+    dependency: transitive
+    description:
+      name: material_neumorphic_text
+      sha256: "006e1eb7a8c23e808fa18bc61e9290905c4abca0546771b4164e944c4a2ed30d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_textfield:
+    dependency: transitive
+    description:
+      name: material_neumorphic_textfield
+      sha256: "9d95abed90c1af2295bb6be862390c21e1ddaf17388258f194775a299ba43ea4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
+  material_neumorphic_theme:
+    dependency: transitive
+    description:
+      name: material_neumorphic_theme
+      sha256: ffeb63bca6d910750a0d676fbed03fe564d3d6d2743d6a7d024e253c64507149
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
+  material_neumorphic_toggle:
+    dependency: transitive
+    description:
+      name: material_neumorphic_toggle
+      sha256: "48c3721710a8e6b6f85b214deb6f8112f6531bf41d09da93543cfe16b3abadf1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.3"
   meta:
     dependency: transitive
     description:

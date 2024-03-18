@@ -1,7 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:inspectorx_beta/components/my_textfield.dart';
-import 'package:inspectorx_beta/components/my_button.dart';
+// import 'package:inspectorx_beta/components/my_button.dart';
+import 'package:loading_btn/loading_btn.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -59,8 +60,63 @@ class LoginPage extends StatelessWidget {
           const SizedBox(
             height: 25,
           ),
-          MyButton(
-            onTap: signUserIn,
+          // MyButton(
+          //   onTap: signUserIn,
+          // ),
+          // LoadingBtn(
+          //   height: 70,
+          //   borderRadius: 10,
+          //   animate: true,
+          //   color: const Color(0xfffbbe28),
+          //   width: 300,
+          //   loader: Container(
+          //     hei
+          //     padding: const EdgeInsets.all(10),
+          //     child: const CircularProgressIndicator(
+          //       valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+          //     ),
+          //   ),
+          //   child: const Text("Sign In",
+          //       style: TextStyle(
+          //         color: Colors.white,
+          //       )),
+          //   onTap: (startLoading, stopLoading, btnState) async {
+          //     if (btnState == ButtonState.idle) {
+          //       startLoading();
+          //       // call your network api
+          //       await Future.delayed(const Duration(seconds: 2));
+          //       stopLoading();
+          //       signUserIn();
+          //     }
+          //   },
+          // ),
+          LoadingBtn(
+            height: 50,
+            borderRadius: 8,
+            animate: true,
+            color: const Color(0xfffbbe28),
+            width: MediaQuery.of(context).size.width * 0.85,
+            loader: Container(
+              padding: const EdgeInsets.all(10),
+              width: 40,
+              height: 40,
+              child: const CircularProgressIndicator(
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+              ),
+            ),
+            child: const Text("Login",
+                style: TextStyle(
+                  color: Colors.white,
+                )),
+            onTap: (startLoading, stopLoading, btnState) async {
+              if (btnState == ButtonState.idle) {
+                startLoading();
+                // call your network api
+                await Future.delayed(const Duration(seconds: 5));
+                stopLoading();
+                signUserIn();
+              }
+            },
           ),
           // welcome back
         ]))));
