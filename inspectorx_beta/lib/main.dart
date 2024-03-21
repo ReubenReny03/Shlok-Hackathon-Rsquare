@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inspectorx_beta/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:inspectorx_beta/pages/leader_bord.dart';
 import 'package:inspectorx_beta/splash_screen.dart';
 
 void main() async {
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: AuthPage(),
       home: SplashScreen(),
+      // home: ProfilePage(),
     );
   }
 }
